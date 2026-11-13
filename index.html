@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smarty Prints | Personalised 3D printed visual boards, learning & gifts</title>
+<meta name="description" content="Smarty Prints makes personalised 3D printed visual routine boards, home-school learning pieces, classroom labels, garden stakes and gifts. Made to order in Queensland, posted Australia-wide.">
+<meta property="og:title" content="Smarty Prints">
+<meta property="og:description" content="Personalised 3D printed visual boards, learning pieces, classroom labels, garden stakes and gifts. Made in Queensland.">
+<meta property="og:image" content="images/logo.png">
+<link rel="icon" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+:root{
+  --font-head:"Fredoka",system-ui,sans-serif; --font-body:"Nunito",system-ui,sans-serif;
+  --bg:#fbf8f2; --surface:#ffffff; --band:#f1f5ee; --ink:#2f3a4f; --head:#2f3a4f; --muted:#5d6676;
+  --accent:#6f9a7a; --accent-ink:#557d61; --on-accent:#ffffff; --link:#8a6bbf;
+  --line:#e6e1d6; --line-strong:#d6d0c2; --radius:20px;
+  --header-bg:rgba(251,248,242,.9); --footer-bg:#2f3a4f; --footer-ink:#f6f2ea;
+  --pic-bg:#ece6f6; --pic-bg2:#e4efe6; --pic-bg3:#fbeee6; --tag-bg:#efe9f8; --tag-ink:#6c4fa3;
+  --card-shadow:0 2px 10px rgba(47,58,79,.06); --card-shadow-hover:0 10px 26px rgba(47,58,79,.12);
+  --logo-shadow:0 18px 50px rgba(111,154,122,.28);
+  --i1:#b79be0; --i2:#8bb896; --i3:#fffaf2; --i4:#3d4860;
+}
+.hero h1 em{font-style:normal;color:#9a78cf}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="images/favicon.png" alt=""><span>Smarty Prints</span></a>
+    <nav class="links" aria-label="Main">
+      <a href="#shop">Shop</a><a href="#how">How it works</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+    </nav>
+    <button id="list-btn" type="button">My list <span id="list-count">0</span></button>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">3D printed in Queensland</span>
+        <h1>Clever little prints that make <em>everyday</em> easier</h1>
+        <p class="lead">Personalised visual routine boards, hands-on learning pieces, classroom labels, garden stakes and gifts. Everything is designed by us and made to order with your names and colours.</p>
+        <div class="btns"><a class="btn" href="#shop">Browse the shop</a><a class="btn ghost" href="#how">How ordering works</a></div>
+        <ul class="points"><li>Made to order</li><li>You approve a proof first</li><li>Posted Australia-wide</li></ul>
+      </div>
+      <img class="logo-big" src="images/logo.png" alt="Smarty Prints logo: a 3D printer with books, pencils, a plant label and the words 3D printed solutions">
+    </div>
+  </section>
+
+  <section id="shop">
+    <div class="wrap">
+      <div class="shop-head">
+        <div><span class="eyebrow">The shop</span><h2>Everything we make</h2></div>
+        <input id="search" type="search" placeholder="Search e.g. name, garden, clock" aria-label="Search products">
+      </div>
+      <div id="cats" role="group" aria-label="Categories"></div>
+      <p id="cat-blurb"></p>
+      <div id="grid"></div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <span class="eyebrow">How it works</span>
+      <h2>Ordering is easy</h2>
+      <p class="muted">No checkout to fight with. Build a list, send it to us, and we'll take it from there.</p>
+      <div class="steps">
+        <div class="step"><h3>Pick your favourites</h3><p>Tap <b>+ Add to my list</b> and type the names, words or colours you'd like.</p></div>
+        <div class="step"><h3>Send us your list</h3><p>Email it straight from the website, or copy it into an Instagram or Facebook message.</p></div>
+        <div class="step"><h3>Approve your proof</h3><p>We send you a picture of your design and the final price, including postage. Nothing is printed until you're happy.</p></div>
+        <div class="step"><h3>We print &amp; post</h3><p>Pay with the secure payment link, and we print your order and post it to you.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap two">
+      <div>
+        <span class="eyebrow">About us</span>
+        <h2>A small Queensland maker with a big heart for kids</h2>
+        <p>Smarty Prints is a little home-based business with a 3D printer, a Cricut and a lot of ideas. We've spent years around children, home-schooling and people with disabilities, and we kept wishing for routine boards and learning tools that were sturdy, personal and actually cute.</p>
+        <p>So we started making them. Every picture on our visual tiles and garden labels is drawn by us, and every piece is printed to order for your family, classroom or garden.</p>
+      </div>
+      <div class="about-card">
+        <h3>What we make</h3>
+        <ul>
+          <li><b>Visual supports</b>: First/Then, choice, routine, weekly and token boards</li>
+          <li><b>Home-school &amp; learning</b>: maths, literacy and game pieces</li>
+          <li><b>Classroom &amp; school</b>: name plates, tags, labels and stamps</li>
+          <li><b>Garden</b>: plant stakes and hang tags with 700+ pictures</li>
+          <li><b>Gifts</b>: teacher gifts, baby keepsakes and keyrings</li>
+          <li><b>Printables</b>: PDF picture cards to print at home</li>
+        </ul>
+        <p class="muted">Want something that isn't here? Ask us. Custom requests are welcome.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" style="background:var(--band)">
+    <div class="wrap two">
+      <div>
+        <span class="eyebrow">Questions</span>
+        <h2>Good to know</h2>
+        <p class="muted">Can't see your question? <a data-email href="#">Email us</a> and we'll get back to you.</p>
+      </div>
+      <div>
+        <details><summary>How much is postage?</summary><p>Postage depends on the size of your order. We'll tell you the exact cost with your proof, before you pay.</p></details>
+        <details><summary>How long will my order take?</summary><p>Everything is made to order. We'll give you a time frame with your proof, and let you know when your order has been posted.</p></details>
+        <details><summary>Can I change the pictures, words or colours?</summary><p>Yes, that's the whole idea! Add your notes to each item in your list, and we'll show you a proof before printing.</p></details>
+        <details><summary>Are the prices on the website final?</summary><p>They're a guide. Some items start from the price shown, and your proof will show the final price. Prices are in Australian dollars. We're not registered for GST, so no GST is included. Minimum order $15.</p></details>
+        <details><summary>Are these toys safe for little ones?</summary><p>Many of our pieces (tiles, tokens, counters and puzzle pieces) are small parts. They're not suitable for children under 3 and should be used with adult supervision. Products with magnets have them sealed inside, but always keep magnets away from young children.</p></details>
+        <details><summary>Can I buy the printables for my classroom?</summary><p>Yes. Printable PDFs are for personal and classroom use. Please don't resell or share the files.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <span class="eyebrow" style="color:#c9b5ec">Say hello</span>
+      <h2>Ready to order, or have an idea?</h2>
+      <a class="big-mail" data-email href="#"></a>
+      <div class="socials" data-socials></div>
+      <p class="fine">© <span data-year></span> Smarty Prints · Made in Queensland, Australia · Prices in AUD</p>
+    </div>
+  </section>
+</main>
+
+<div id="drawer" aria-hidden="true">
+  <div class="shade" data-close></div>
+  <aside class="panel" aria-label="My list">
+    <div class="panel-head"><h2>My list</h2><button class="x" data-close aria-label="Close">×</button></div>
+    <div id="list-items"></div>
+    <div class="panel-foot">
+      <div id="list-total"></div>
+      <input id="list-name" placeholder="Your first name (optional)">
+      <textarea id="list-extra" rows="2" placeholder="Anything else? e.g. colours, a date you need it by"></textarea>
+      <div class="row"><button id="send" type="button">Email my list</button><button id="copy" type="button">Copy my list</button></div>
+      <small>Sending your list doesn't charge you anything. We'll reply with a proof and the final price.</small>
+    </div>
+  </aside>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script src="products.js"></script>
+<script src="shop.js"></script>
+</body>
+</html>
